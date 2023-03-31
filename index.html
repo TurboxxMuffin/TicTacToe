@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" async></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Kółko i krzyżyk</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Kółko i krzyżyk</h1>
+    </div>
+    <div class="players-count">
+        <h2>Wybierz liczbę graczy</h2>
+        <div id="game-mode">
+            <input type="radio" name="game-mode" id="two-players" value="2" checked>
+            <label for="two-players">Dwóch Graczy</label>
+            <input type="radio" name="game-mode" id="singleplayer" value="1">
+            <label for="singleplayer">Jeden Gracz</label>
+        </div>
+    </div>
+    <br>
+    <div class="game-field">
+        <div cellIndex = "0" class="cell" ></div>
+        <div cellIndex = "1" class="cell" ></div>
+        <div cellIndex = "2" class="cell" ></div>
+        <div cellIndex = "3" class="cell" ></div>
+        <div cellIndex = "4" class="cell" ></div>
+        <div cellIndex = "5" class="cell" ></div>
+        <div cellIndex = "6" class="cell" ></div>
+        <div cellIndex = "7" class="cell" ></div>
+        <div cellIndex = "8" class="cell" ></div>
+    </div>
+    <div>
+        <h2 id="game-result"></h2>
+    </div>
+    <div>
+        <button id="restart-button">Restart</button>
+    </div>
+</body>
+</html>

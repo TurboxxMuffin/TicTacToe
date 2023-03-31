@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    text-align: center;
+    font-family: "Permament Marker", cursive;
+}
+
+
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 1px 1px 1px 2px #394346;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.game-field{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+
+}
+
+
