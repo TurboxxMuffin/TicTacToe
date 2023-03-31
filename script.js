@@ -34,7 +34,7 @@ function gameModeChange(){
 }
 
 function cellClicked(){
-    const cellIndex = this.getAttribute("cellIndex");
+    const cellIndex = this.getAttribute("data-cellIndex");
 
     if(options[cellIndex] != "" || !running){
         return;
